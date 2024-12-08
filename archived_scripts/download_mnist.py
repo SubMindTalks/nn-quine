@@ -1,7 +1,7 @@
 from torchvision import datasets, transforms
 
 # Set up a directory for the data
-data_dir = './data'
+data_dir = '../data'
 
 # Download MNIST dataset
 mnist_train = datasets.MNIST(data_dir, train=True, download=True, transform=transforms.ToTensor())

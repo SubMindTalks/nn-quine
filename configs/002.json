@@ -1,0 +1,10 @@
+{
+  "desc": "Fast MNIST classifier with minimal architecture",
+  "num_epochs": 50,           // Reduced from 200 since MNIST converges quickly
+  "learning_rate": 1e-2,      // Increased for faster convergence
+  "batch_size": 128,          // Increased for better parallelization/speed
+  "save_freq": 10,            // Reduced to match fewer epochs
+  "n_hidden": 64,             // Increased units for better feature capture
+  "n_layers": 1,              // Reduced to single hidden layer - MNIST is simple enough
+  "act_func": "ReLU"          // Keep ReLU as it's fast and works well
+}
