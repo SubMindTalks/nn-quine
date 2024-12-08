@@ -1,0 +1,7 @@
+torch
+tensorflow
+tensorboard
+numpy
+scikit-learn
+torchvision
+tqdm
