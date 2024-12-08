@@ -1,10 +1,10 @@
 {
-  "desc": "Real Quine with moderate hidden size and deeper layers",
-  "num_epochs": 200,
-  "learning_rate": 5e-4,
+  "desc": "Unified Config for Real Quines",
+  "num_epochs": 50,
+  "learning_rate": 0.001,
   "batch_size": 64,
-  "save_freq": 10,
-  "n_hidden": 128,
+  "save_freq": 25,
+  "n_hidden": 20,
   "n_layers": 3,
   "act_func": "ReLU",
   "model_type": "real"
